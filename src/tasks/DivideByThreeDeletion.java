@@ -2,12 +2,10 @@ package tasks;
 
 import java.util.ArrayList;
 
-public class DivideBy3Delete {
+public class DivideByThreeDeletion {
 
-    private ArrayList<Integer> list;
-
-    public DivideBy3Delete(){
-        list = new ArrayList<>();
+    public DivideByThreeDeletion(){
+        ArrayList<Integer> list = new ArrayList<>();
         list.add(3);
         list.add(9);
         list.add(11);

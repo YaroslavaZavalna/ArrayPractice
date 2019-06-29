@@ -3,10 +3,9 @@ package tasks;
 import java.util.ArrayList;
 
 public class FindMistake {
-    private ArrayList<String> list;
 
     public FindMistake(){
-        list = new ArrayList<String>();
+        ArrayList<String> list = new ArrayList<String>();
         list.add("One");
         list.add("Two");
         list.add("Tree");

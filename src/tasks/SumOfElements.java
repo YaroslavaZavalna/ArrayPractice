@@ -1,20 +1,17 @@
 package tasks;
 
 public class SumOfElements {
-    int sum = 0;
-
-    Integer [] arr;
-    Integer [] arr2;
+    private int sum = 0;
 
     public SumOfElements(){
-        arr = new Integer[]{0, 9, 0, 8, 2, -1, 1, -4};
+        Integer [] arr = new Integer[]{0, 9, 0, 8, 2, -1, 1, -4};
         System.out.print("=====SumOfElements Task#3=====\nFirst array: ");
         printArr(arr);
         System.out.println("Sum might be: 20");
         System.out.print("Sum is: "+sum(arr));
 
         sum = 0;
-        arr2 = new Integer[]{0, -9, -8, -2, -1, -4};
+        Integer [] arr2 = new Integer[]{0, -9, -8, -2, -1, -4};
         System.out.println("\n");
         System.out.print("Second array: ");
         printArr(arr2);
@@ -33,10 +30,9 @@ public class SumOfElements {
         Integer summa = 0;
         for (int i = 0; i < array.length; i++) {
             if(array[i]>0){
-                summa+=arr[i];
+                summa+=array[i];
             }
         }
-
         return summa;
     }
 

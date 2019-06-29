@@ -2,10 +2,8 @@ package tasks;
 
 public class DescSort {
 
-    private Integer [] array;
-
     public DescSort(){
-        array = new Integer[]{2,3,1,7,11};
+        Integer [] array = new Integer[]{2,3,1,7,11};
         System.out.print("=====DescSort Task#1=====\nArray: ");
         showArr(array);
         sortDesc(array);

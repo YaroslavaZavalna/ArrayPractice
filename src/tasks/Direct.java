@@ -1,8 +1,8 @@
 package tasks;
 
-public class direct {
+public class Direct {
 
-    public direct(){
+    public Direct(){
         DescSort t1 = new DescSort();
         System.out.println("\n");
         FindMistake t2 = new FindMistake();
@@ -11,6 +11,6 @@ public class direct {
         System.out.println("\n");
         AverageOfElements t4 = new AverageOfElements();
         System.out.println("\n");
-        DivideBy3Delete t5 = new DivideBy3Delete();
+        DivideByThreeDeletion t5 = new DivideByThreeDeletion();
     }
 }
