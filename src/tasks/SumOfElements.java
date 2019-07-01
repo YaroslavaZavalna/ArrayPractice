@@ -8,7 +8,7 @@ public class SumOfElements {
         System.out.print("=====SumOfElements Task#3=====\nFirst array: ");
         printArr(arr);
         System.out.println("Sum might be: 20");
-        System.out.print("Sum is: "+sum(arr));
+        System.out.print("Sum is: "+ sumOfArrayValues(arr));
 
         sum = 0;
         Integer [] arr2 = new Integer[]{0, -9, -8, -2, -1, -4};
@@ -16,7 +16,7 @@ public class SumOfElements {
         System.out.print("Second array: ");
         printArr(arr2);
         System.out.println("Sum might be: 0");
-        System.out.println("Sum is: "+sum(arr2));
+        System.out.println("Sum is: "+ sumOfArrayValues(arr2));
     }
 
     private void printArr(Integer[] array){
@@ -26,7 +26,7 @@ public class SumOfElements {
         System.out.println("\n");
     }
 
-    private Integer sum(Integer[] array){
+    private Integer sumOfArrayValues(Integer[] array){
         Integer summa = 0;
         for (int i = 0; i < array.length; i++) {
             if(array[i]>0){
