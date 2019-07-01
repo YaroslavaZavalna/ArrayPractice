@@ -12,7 +12,7 @@ public class DivideByThreeDeletion {
         list.add(18);
         list.add(20);
         list.add(22);
-        System.out.println("=====DivideBy3Delete Task#5=====\nArrayList: ");
+        System.out.println("=====DivideByThreeDeletion Task#5=====\nArrayList: ");
         System.out.println(list);
 
         for (int i = 0; i < list.size() ; i++) {

@@ -5,10 +5,10 @@ public class DescSort {
     public DescSort(){
         Integer [] array = new Integer[]{2,3,1,7,11};
         System.out.print("=====DescSort Task#1=====\nArray: ");
-        showArr(array);
+        printArray(array);
         sortDesc(array);
         System.out.println("Sorted array: ");
-        showArr(array);
+        printArray(array);
     }
 
     private void sortDesc(Integer[] arr) {
@@ -23,7 +23,7 @@ public class DescSort {
         }
     }
 
-    private void showArr(Integer[] arr){
+    private void printArray(Integer[] arr){
         for (int i = 0; i <arr.length ; i++) {
             System.out.print(arr[i]+ ", ");
         }

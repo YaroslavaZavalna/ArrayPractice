@@ -1,8 +1,8 @@
 package tasks;
 
-public class Direct {
+public class DirectionClass {
 
-    public Direct(){
+    public DirectionClass(){
         DescSort t1 = new DescSort();
         System.out.println("\n");
         FindMistake t2 = new FindMistake();

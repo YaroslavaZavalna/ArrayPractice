@@ -1,15 +1,18 @@
 package tasks;
 
 public class SumOfElements {
-    private int sum = 0;
 
     public SumOfElements(){
+        int sum = 0;
         Integer [] arr = new Integer[]{0, 9, 0, 8, 2, -1, 1, -4};
         System.out.print("=====SumOfElements Task#3=====\nFirst array: ");
         printArr(arr);
         System.out.println("Sum might be: 20");
         System.out.print("Sum is: "+ sumOfArrayValues(arr));
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
         sum = 0;
         Integer [] arr2 = new Integer[]{0, -9, -8, -2, -1, -4};
         System.out.println("\n");
